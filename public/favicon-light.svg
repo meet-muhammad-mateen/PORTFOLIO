@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="lightBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff6ef"/>
+      <stop offset="100%" stop-color="#eef4ff"/>
+    </linearGradient>
+    <linearGradient id="lightAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d87043"/>
+      <stop offset="100%" stop-color="#a24b2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="18" fill="url(#lightBg)"/>
+  <rect x="8" y="8" width="48" height="48" rx="16" fill="#fffdfb"/>
+  <path d="M20 42V22h5.2l6.8 11 6.8-11H44v20h-4.6V29.6l-6.3 10.2h-2.3l-6.2-10.2V42Z" fill="#162033"/>
+  <path d="M14 19.5c0-3.1 2.5-5.5 5.6-5.5h6.1c1.5 0 2.8.6 3.8 1.5L14 31.2Z" fill="url(#lightAccent)" opacity=".96"/>
+  <circle cx="47.5" cy="17.5" r="4.5" fill="#d87043" opacity=".22"/>
+</svg>
