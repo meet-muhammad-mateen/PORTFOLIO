@@ -546,8 +546,6 @@ export default function Portfolio() {
               <ul>
                 <li>Python & Django</li>
                 <li>Playwright (Headless Web Scraping)</li>
-                <li>Data pipelines & processing</li>
-                <li>AWS EC2 Linux Deployments</li>
                 <li>Database Management</li>
               </ul>
             </article>
