@@ -56,18 +56,18 @@ flowchart TD
     classDef server fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#fff
     classDef external fill:#451a03,stroke:#f59e0b,stroke-width:2px,color:#fff
 
-    Browser((User Browser)) --> |Initial Request| Edge[Netlify Edge CDN]:::external
-    Edge --> Server[Next.js Server Components]:::server
+    Browser(("User Browser")) --> |Initial Request| Edge["Netlify Edge CDN"]:::external
+    Edge --> Server["Next.js Server Components"]:::server
     
     subgraph Client-Side State
-        Browser --> |Interacts| Provider[Global State Provider]:::client
-        Provider --> Toggle[UI/Full-Stack Toggle Component]:::client
-        Toggle --> |Updates| View[Project Render View]:::client
+        Browser --> |Interacts| Provider["Global State Provider"]:::client
+        Provider --> Toggle["UI/Full-Stack Toggle Component"]:::client
+        Toggle --> |Updates| View["Project Render View"]:::client
     end
 
     subgraph Server-Side Rendering
-        Server --> Layout[Root Layout & Metadata]:::server
-        Server --> StaticData[Static Project Data (JSON/Markdown)]:::server
+        Server --> Layout["Root Layout & Metadata"]:::server
+        Server --> StaticData["Static Project Data (JSON/Markdown)"]:::server
     end
     
     StaticData --> View
